@@ -1,0 +1,114 @@
+*{margin:0;padding:0;text-decoration:none}
+html{scroll-behavior:smooth}
+.container{width:100%;margin:0 auto}
+#button{display:inline-block;background-color:#007bff;width:50px;height:50px;text-align:center;border-radius:4px;position:fixed;bottom:30px;right:30px;border:1.5px solid #fff;opacity:0;visibility:hidden;z-index:1000}
+#button::after{content:"\f077";font-family:FontAwesome;font-weight:normal;font-style:normal;font-size:2em;line-height:50px;color:#fff}
+#button:hover{cursor:pointer;background-color:#006cdf}
+#button:active{background-color:#006cdf}
+#button.show{opacity:1;visibility:visible}
+body{background-color:#fff}
+#return-to-top{position:fixed;bottom:20px;right:20px;background:rgba(0,0,0,0.85);width:50px;height:50px;text-decoration:none;-webkit-border-radius:35px;-moz-border-radius:35px;border-radius:35px;display:none;-webkit-transition:all .3s linear;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease;z-index:1}
+.navbar.scrolling-navbar.top-nav-collapse{padding-top:12px;padding-bottom:12px}
+#return-to-top i{color:#fff;margin:0;position:relative;left:16px;top:13px;font-size:19px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+#return-to-top:hover{background:#22201fd5}
+#return-to-top:hover i{color:#fff;top:5px}
+.navbar{background-color:transparent}
+.top-nav-collapse{background-color:#007bff}
+.nav-link{font-size:18px;display:inline-block;color:#000;text-decoration:none;margin-left:30px}
+.nav-link::after{content:'';display:block;width:0;height:2px;background:#fff;transition:.3s}
+.nav-link:hover::after{width:100%}
+.banner:before{content:"";position:absolute;height:950px;width:70%;background:#007bff}
+.img-absolute{position:absolute;right:10%;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.img-absolute img{max-width:600px;-webkit-box-shadow:0 10px 50px -5px rgba(0,0,0,0.4);box-shadow:0 10px 50px -5px rgba(0,0,0,0.4)}
+.banner-content{color:#ffff}
+.banner-content h1{font-size:50px;font-weight:800}
+.banner-content p{font-size:18px;letter-spacing:.2px;color:rgba(255,255,255,0.52);margin:1rem 0 3rem}
+.banner .container .row{min-height:900px}
+.btn{padding:16px 44px;border:1px solid #fff;color:#fff;font-size:12px;font-weight:700;letter-spacing:.6px;transition:.3s}
+.btn:hover{color:#000;background-color:#ffff}
+.about{margin-top:10rem;margin-bottom:10rem}
+.about-img{width:100%}
+.about-numb{font-size:48px;font-family:sans-serif;font-weight:500;color:#000;margin-left:8px}
+.about-text{display:block;margin-top:-8px;margin-bottom:2rem;margin-left:50px;font-size:15px}
+.image-absolute-box{position:relative}
+.image-absolute-box .top-box{position:absolute;background:#007bff;padding:30px;max-width:300px;top:-10%;right:-6%}
+.icon-wrap{color:#fff}
+.top-box h3{font-size:22px;font-weight:600;color:#fff;margin:10px 0 30px}
+.top-box p{font-size:17px;letter-spacing:.2px;color:#a8d1ff;line-height:28px;font-weight:100;letter-spacing:.3px}
+.icon-wrap{font-size:40px}
+.icon-group{font-size:34px;color:#007bff}
+.text-blue{color:#007bff;font-weight:bold;font-size:11px;text-transform:uppercase}
+.work-content h1{font-size:50px;font-weight:800;color:#000;margin:1.5rem 0rem}
+.our-work{padding-top:6rem;padding-bottom:2rem}
+.work-content h1{font-size:50px;font-weight:800;color:#000}
+.work-content p{font-size:17px;letter-spacing:.2px;color:grey;line-height:28px;font-weight:100;letter-spacing:.3px;margin:2rem 0rem 2rem}
+.overlay{position:absolute;width:100%;height:100%;color:#ffff;padding:30px 30px;transition:.5s;transform:scale(0.8);cursor:pointer}
+.overlay h5{font-size:20px;font-weight:bold;transform:scale(0)}
+.overlay h6{font-size:16px;transform:scale(0)}
+.overlay:hover{background:#007bffa9;transform:scale(1)}
+.overlay:hover h6{transform:scale(1)}
+.overlay:hover h5{transform:scale(1)}
+.works-owl.owl-carousel.owl-theme.owl-loaded.owl-drag{padding-bottom:6rem}
+.our-process{padding-top:6rem;padding-bottom:1rem}
+.trasparent{position:relative;font-family:sans-serif;font-size:150px;font-weight:bold;color:rgba(185,185,185,0.20);left:-54px;padding-left:20px}
+.process-icon{position:absolute;top:0;margin-top:82px;left:0;margin-left:50px;font-size:40px;color:#007bff}
+.process h3{font-size:22px;font-weight:bold}
+.process p{font-size:17px;letter-spacing:.2px;color:grey;line-height:28px;font-weight:100;letter-spacing:.3px;margin:1rem 3.2rem 2rem 0rem}
+.service-bg{padding-top:6rem;background-color:#f8f9fa;padding-bottom:0rem}
+.services h1{font-size:50px;font-weight:800;color:#000;margin:1.5rem 0rem}
+.services p{font-size:17px;letter-spacing:.2px;color:grey;line-height:28px;font-weight:100;letter-spacing:.3px;margin:1rem 0rem 3rem}
+.service-head{font-size:27px;font-weight:600;margin:1rem 0rem}
+.service-para{font-size:17px;letter-spacing:.2px;color:grey;line-height:28px;font-weight:100;letter-spacing:.3px;margin:1rem 0rem 2rem}
+.service-item{padding:60px;background-color:#ffff;cursor:pointer}
+.service-icon{font-size:54px;color:#007bff}
+.service-owl.owl-carousel.owl-theme.owl-loaded.owl-drag{padding-bottom:6rem}
+.owl-theme .owl-nav.disabled+.owl-dots{margin-top:32px}
+.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#007bff}
+.contact{padding-top:6rem}
+.wrap-inner{width:60%;margin:0 auto}
+.wrap-inner h1{font-size:50px;font-weight:800;color:#000}
+.wrap-inner p{font-size:17px;color:grey;line-height:28px;font-weight:100;letter-spacing:.5px;margin:1rem 0rem 3rem}
+input[type=text]{width:49.50%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;display:inline-block}
+input[type=email]{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}
+#subject{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}
+textarea{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}
+.send-btn{display:block;background-color:#007bff;color:white;padding:16px 80px;border:0;border-radius:4px;cursor:pointer;font-weight:600;font-size:14px;margin-bottom:10rem}
+.send-btn:hover{background-color:#006cdf}
+footer{margin-top:2rem;margin-bottom:2rem}
+footer p{font-size:16px;color:grey;line-height:28px;font-weight:100;letter-spacing:.5px;margin:0rem 0rem 1rem}
+footer h4{font-size:17px;font-weight:601;letter-spacing:1px;text-transform:uppercase;color:#000;margin-bottom:1.5rem;margin-top:1rem}
+.footer-link{display:block;padding-bottom:10px;font-size:18px}
+.footer-link:hover{text-decoration:none}
+.subscribe input{margin-right:-6px}
+.form-control{max-width:250px;display: inline-block;}
+.subcribe-btn{ padding: 7px 10px;border:1px solid #007bff;background-color: #007bff;font-size: 15px;color:#fff }
+hr{margin:6rem 0rem 2.5rem 0rem}
+.Copyright{color:#cacaca}
+@media screen and (max-width:991px){.navbar.scrolling-navbar .navbar-nav>li{-webkit-transition-duration:1s;-o-transition-duration:1s;transition-duration:1s;background:#007bff}
+.nav-link::after{display:none}
+.nav-link{margin-bottom:16px}
+.banner:before{width:100%}
+.col-lg-6.last-child{margin-bottom:15rem}
+.banner-content p{width:78%}
+.work-content h1,.services h1{font-size:26px;width:70%}
+.about-numb{font-weight:600}
+.top-box h3{font-weight:500}
+.about-img{width:100%}
+.about-content{margin-bottom:7rem}
+.image-absolute-box .top-box{top:auto;right:auto;position:relative;width:100%;max-width:100%}
+.wrap-inner h1{font-size:26px}
+.send-btn{padding:16px 50px}
+.img-absolute img{max-width:100%}
+.wrap-inner{width:80%;margin:0 auto}
+
+}@media screen and (max-width:767px){input[type=text]{width:100%;padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;display:inline-block}
+.wrap-inner{width:100%;margin:0 auto}
+.trasparent{left:-34px;padding-left:20px}
+.process-icon{margin-left:70px}
+.footer-link{text-align:left}
+.link-group h4{text-align:left}
+
+}@media screen and (max-width:576px){input[type="subemail"]{width:54%}
+
+.form-control{max-width:225px;display: inline-block;}
+}
